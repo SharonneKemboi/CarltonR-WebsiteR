@@ -65,13 +65,13 @@ ul{
  }
  video{
      width: 100%;
-     background-color: aliceblue;
      padding: 0px;
      margin: 0px;
      border: 0px;
      height: max-content;
      
  }
+
  .Main p{
      font-size: 50px;
      background-color: rgb(205, 230, 252);
@@ -81,5 +81,101 @@ ul{
      margin-left: 30%;
      
  }
+ main{
+     position:absolute;
+     height: 50%;
+     padding: 80px;
+ }
+main img{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    padding-right: 20px;
+    margin-left: 400px;
+    width: 40%;
+}
+h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+main p{
+    font-size: 30px;
+    width: 50%;
+}
+.button{
+   font-size: 30px; 
+   background-color: #23A6F0;
+   border: none;
+   border-radius: 20px;
+   padding: 10px;
+   margin: 20px;
+   margin-top: 180px;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom{
+    display: flex;
+    margin: 900px;
+    margin-left: 100px;
+    padding: 1px;
+    width: 60%;
+}
+.bottom h2{
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+.bottom p{
+    font-size: 25px;
+}
+.contact1{
+    background-color: #23f0d5;
+    color: #fffafa;
+    padding: 20px;
+    border-radius: 4px;
+    width: 20%;
+    margin-right: 40px;
+    margin-left: 70px;
+}
+.talk-to-us{
+    font-size: 30px;
+    text-decoration: none;
+}
 
 
+.sub{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    top: 2200px;
+    
+}
+.sub ul li{
+   padding: 5px; 
+   width: 50%;
+
+}
+
+
+footer{
+    position: absolute;
+    top: 2600px;
+    margin-top: 15px;
+    padding: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer img, .sub img{
+    height: 20px;
+}
+footer>div{
+    float: right;
+      
+}
