@@ -33,7 +33,7 @@ h1{
     color: rgb(0, 0, 0);
 }
 #heading{
-    background-image: url("Images/main1.jpg");
+    background-image: url("Images/bg5.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 7.5rem;
@@ -101,7 +101,7 @@ h1{
 .about-div{
     padding: 7% 15%;
     color: #fff;
-    opacity:0.6;
+    opacity:0.9;
     filter:alpha(opacity=10); 
    
 }
